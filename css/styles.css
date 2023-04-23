@@ -498,7 +498,7 @@ body {
 /* ==================== footer-part-two =========================*/
 
 .footer-part-two {
-  margin-right: 78px;
+  margin-right: 79px;
 }
 .text-footer-part-two,
 .text-footer-part-three {
@@ -524,8 +524,12 @@ body {
 
 /* ==================== footer-part-three =========================*/
 
-.footer-form-input {
+.footer-form-name {
+  display: inline-block;
   margin-right: 24px;
+}
+
+.footer-form-input {
   padding: 8px 16px;
   width: 264px;
   height: 40px;
@@ -552,6 +556,7 @@ body {
 }
 
 .footer-form-submit {
+  margin-left: 0;
   display: inline-flex;
   align-items: center;
   width: 165px;
@@ -792,6 +797,7 @@ body {
 }
 
 .modal-form-field-desc {
+  display: block;
   margin-bottom: 4px;
 
   font-size: 12px;
@@ -817,6 +823,7 @@ body {
   position: absolute;
   top: 50%;
   left: 16px;
+  fill: #2e2f42;
   transform: translate(0, -50%);
 
   transition: fill var(--transition-dur-cubic);
