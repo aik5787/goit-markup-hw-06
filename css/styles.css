@@ -863,9 +863,9 @@ body {
 }
 
 .modal-form-check:checked + .modal-form-check-desc::before {
-  background-image: url(../images/checkboxbig.svg);
+  background-image: url(../images/checkboxsmall.svg);
   background-color: #404bbf;
-  background-size: contain;
+  /* background-size: contain; */
   background-position: center;
   background-repeat: no-repeat;
   background-origin: border-box;
@@ -873,7 +873,7 @@ body {
 }
 
 /* .modal-form-check:focus + .modal-form-check-desc::before {
-  background-image: url(../images/checkboxbig.svg);
+  background-image: url(../images/checkboxsmall.svg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
