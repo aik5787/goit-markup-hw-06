@@ -863,21 +863,22 @@ body {
 }
 
 .modal-form-check:checked + .modal-form-check-desc::before {
-  background-image: url(../images/checkbox.svg);
-  background-size: cover;
+  background-image: url(../images/checkboxbig.svg);
+  background-color: #404bbf;
+  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
   background-origin: border-box;
-  border: none;
+  border: 1px solid #404bbf;
 }
 
-.modal-form-check:focus + .modal-form-check-desc::before {
-  background-image: url(../images/checkbox.svg);
+/* .modal-form-check:focus + .modal-form-check-desc::before {
+  background-image: url(../images/checkboxbig.svg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   border-color: var(--input-focus-border-color);
-}
+} */
 
 .modal-form-check-desc {
   display: flex;
